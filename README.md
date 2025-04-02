@@ -60,7 +60,7 @@ motion = Motion(gpio_pin=22, display_delay=60, verbose=False)
 Restart the service to apply changes
 
 ```bash
-sudo systemctl restart power_button.service
+sudo systemctl restart motion-display-control.service
 ```
 
 ## Debug
